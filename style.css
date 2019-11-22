@@ -1,0 +1,452 @@
+body {
+
+	background-color: black;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	color: white;
+	font-size: 40px;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 620px;
+	margin-bottom: -200px;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	color: white;
+	margin-top: 150px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+p {
+	color: white;
+	font-family: 'Martel', serif;
+
+}
+
+.line20 {
+	width: 550px;
+	height: 0px;
+	border-bottom: 1px solid red;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 450px;
+}
+
+.line21 {
+	width: 550px;
+	height: 0px;
+	border-bottom: 1px solid red;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 450px;
+	padding-bottom: 10px;
+}
+
+.liens{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 40%;
+	height: 200px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 440px;
+	margin-right: 300px;
+	margin-bottom: -150px;
+}
+
+/*.liens{
+	position: relative;
+	width: 70%;
+}*/
+
+#lien1 {
+	margin-top: 16px;
+}
+
+#lien2 {
+	margin-top: 16px;
+}
+
+#lien3 {
+	margin-top: 16px;
+}
+
+/*.line25 {
+	width: 100px;
+	height: 35px;
+	border-right: 1px solid white;
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 540px;	
+}
+
+.line23 {
+	width: 100px;
+	height: 35px;
+	border-right: 1px solid white;
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 540px;	
+}
+
+.line24 {
+	width: 100px;
+	height: 35px;
+	border-right: 1px solid white;
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 660px;
+}*/
+
+
+#lien{
+	color: white;
+	font-family: 'Martel', serif;
+	text-decoration: none;
+}
+
+a{
+	color: white;
+	font-family: 'Martel', serif;
+	text-decoration: none;
+}
+
+.LIFE {
+	margin-top: 140px;
+	margin-left: 470px;
+	margin-bottom: -55px;
+}
+
+#line2 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 40px;
+
+}
+
+.line3 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 40px;
+	margin-bottom: 70px;
+
+
+}
+
+.PB {
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-right: 153px;
+	margin-bottom: -500px;
+	position: relative;
+	z-index: 6;
+}
+
+
+.surf {
+	box-shadow: 30px 30px blue;
+
+
+}
+.PBtext {
+	margin-left: -10px;
+	margin-top: 300px;
+	margin-right: 0px;
+	z-index: 12;
+	position: absolute;
+	transform: rotate(-90deg);
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+.line4 {
+	width: 700px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 600px;
+
+}
+
+.line5 {
+	width: 700px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 600px;
+
+}
+
+.SerreChe {
+	margin-left: 100px;
+	margin-top: 150px;
+	margin-right: 600px;
+	position: relative;
+	z-index: 6;
+}
+
+.ski {
+	box-shadow: 30px 30px blue;
+
+}
+
+.SCtext {
+	margin-left: -30px;
+	margin-top: -200px;
+	z-index: 12;
+	position: absolute;
+	transform: rotate(-90deg);
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+.Ftext2 {
+	margin-left: 600px;
+	margin-top: -300px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
+
+.Singe {
+	margin-left: 1000px;
+	margin-top: 0px;
+	margin-right: 600px;
+	position: relative;
+	z-index: 6;
+}
+
+.Labenne {
+	box-shadow: -30px 30px blue;
+}
+
+.Labennetext {
+	margin-left: 1260px;
+	margin-top: -250px;
+	z-index: 12;
+	position: absolute;
+	transform: rotate(90deg);
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+#Ftext1 {
+	margin-left: 40px;
+	margin-top: -380px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
+
+.line6 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 25px;
+
+}
+
+.line7 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 25px;
+
+}
+
+.Aéroport {
+	margin-left: 1000px;
+	margin-top: 100px;
+	margin-right: 153px;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 6;
+}
+
+
+.Airport {
+	box-shadow: -30px 30px blue;
+
+
+}
+.Airporttext {
+	margin-left: 1150px;
+	margin-top: -350px;
+	margin-right: 0px;
+	z-index: 12;
+	position: absolute;
+	white-space: nowrap;
+	transform: rotate(90deg);
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+.Ftext3 {
+	margin-left: 40px;
+	margin-top: -430px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
+
+
+.line8 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 500px;
+
+}
+
+.line9 {
+	width: 900px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 500px;
+
+}
+
+.Kauai {
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-right: 153px;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 6;
+}
+
+
+.Jeep {
+	box-shadow: 30px 30px blue;
+
+
+}
+.Kauaitext {
+	margin-left: -30px;
+	margin-top: -370px;
+	margin-right: 0px;
+	z-index: 12;
+	position: absolute;
+	white-space: nowrap;
+	transform: rotate(-90deg);
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+.Ftext4 {
+	margin-left: 500px;
+	margin-top: -300px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
+
+.line10 {
+	width: 700px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 40px;
+
+}
+
+.line11 {
+	width: 700px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 40px;
+
+}
+
+.Yunnan {
+	margin-left: 890px;
+	margin-top: 50px;
+	margin-right: 153px;
+	margin-bottom: -500px;
+	position: relative;
+	z-index: 6;
+}
+
+
+.Shangrila {
+	box-shadow: -30px 30px blue;
+
+
+}
+.Yunnantext {
+	margin-left: 1190px;
+	margin-top: 300px;
+	margin-right: 0px;
+	z-index: 12;
+	position: absolute;
+	transform: rotate(90deg);
+	white-space: nowrap;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+}
+
+.Ftext5 {
+	margin-left: 40px;
+	margin-top: 290px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
+
+.line12 {
+	width: 850px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 500px;
+
+}
+
+.line13 {
+	width: 850px;
+	height: 47px;
+	border-bottom: 2px solid white;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 500px;
+
+}
+
+.Ftext6 {
+	margin-left: 500px;
+	margin-top: 220px;
+	z-index: 12;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+
+}
